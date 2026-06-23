@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/owoyi/medical_web/',
+  base: '/medical_web/',
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
